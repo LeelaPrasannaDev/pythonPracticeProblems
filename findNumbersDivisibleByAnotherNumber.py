@@ -12,7 +12,8 @@ To slove this
 '''
 
 # code start from here
-
+# By using forloop and conditions
+'''
 start = int(input("Enter a starting number to start the range = "))
 end = int(input("Enter end number to end the range = "))
 target_number = int(input("Enter a number you need to check range is divisible by = "))
@@ -32,3 +33,15 @@ def check_divisable(a,b,c):
         
 result = check_divisable(start,end,target_number)
 print(" The numbers in range from {} to {}, which are divisible by {} are = {}".format(start,end,target_number,result))
+
+'''
+
+# By using lambda function and filter()
+# filter = to filter elements based on condition
+
+# create a list that need to check that numbers 
+
+list_of_numbers = [1,2,3,4,5,6,7,8,9,10]
+num = int(input("Enter a number to check = "))
+result = list(filter(lambda x: x%num==0,list_of_numbers))
+print("The numbers in the given list which are divisiable by given number = ",result)
