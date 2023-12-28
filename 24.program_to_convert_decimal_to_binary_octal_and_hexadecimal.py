@@ -1,3 +1,4 @@
+# this all are number system
 # prifix of binary = 0b 
 # build in function for binary bin()
 # prifix of octal = 0o
